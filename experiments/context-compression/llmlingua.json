@@ -1,0 +1,16 @@
+{
+  "rate_0.5": {
+    "origin_tokens": 332,
+    "compressed_tokens": 157,
+    "ratio": "2.1x",
+    "rate": "47.3%",
+    "compressed_prompt": "Project Status Update Knowledge Base Desktop App \n \n, update \n this week. \n good place,. \n \n, indexing service : Priya finished indexing \n merged main. user edits document, \n re - index entire corpus changed document, \n faster. old behavior re - indexed 8 seconds \n large corpus. new behavior 200 milliseconds. big \n improvement notice. \n \n, Q & A panel : bug citations \n point wrong document. Marcus \n race condition document IDs indexing. \n fix by Friday., treat citation links \n unreliable. \n \n, : Monday \n local JSON files SQLite. \n harness simple avoids native dependency. \n revisited confirmed decision. \n \n : Priya tests incremental indexer. Marcus fix \n citation bug by Friday. update AGENTS. md reflect new \n indexing behavior. sync next Monday."
+  },
+  "rate_0.33": {
+    "origin_tokens": 332,
+    "compressed_tokens": 105,
+    "ratio": "3.2x",
+    "rate": "31.6%",
+    "compressed_prompt": "Project Status Update Knowledge Base Desktop App \n \n, update \n. \n,. \n \n, : Priya \n merged., \n re - corpus, \n. 8 seconds \n. 200 milliseconds. \n. \n \n, Q & A : bug \n wrong. \n race condition. \n fix Friday., citation links \n unreliable. \n \n, : \n local JSON files. \n harness native dependency. \n. \n \n : Priya tests indexer. Marcus fix \n citation bug Friday. update AGENTS. md \n indexing behavior. sync next Monday."
+  }
+}

@@ -1,0 +1,27 @@
+Project Status Update — Knowledge Base Desktop App
+
+Hi team, I wanted to give everyone a quick update on where things stand with the
+knowledge base desktop application as of this week. Overall I think we're in a
+pretty good place, but there are a few things I want to flag.
+
+First, on the indexing service: Priya finished the incremental indexing work and
+it's now merged into main. This means that when a user edits a document, we no
+longer re-index the entire corpus — we only re-index the changed document, which
+is much faster. The old behavior re-indexed everything and took around 8 seconds
+on a large corpus. The new behavior takes about 200 milliseconds. This is a big
+improvement and users should notice it.
+
+Second, on the Q&A panel: there is currently a bug where citations sometimes
+point to the wrong document. Marcus is investigating and thinks it's related to a
+race condition in how we assign document IDs during concurrent indexing. He
+expects to have a fix by Friday. Until then, we should treat citation links as
+unreliable.
+
+Third, on persistence: we decided in Monday's meeting that we are going to keep
+storing everything as local JSON files rather than introducing SQLite. The main
+reason is that it keeps the harness simple and avoids a native dependency. We
+revisited this and confirmed the decision.
+
+Action items: Priya will write tests for the incremental indexer. Marcus will fix
+the citation bug by Friday. I will update the AGENTS.md to reflect the new
+indexing behavior. Let's sync again next Monday.

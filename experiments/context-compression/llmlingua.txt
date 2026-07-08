@@ -1,0 +1,27 @@
+Project Status Update Knowledge Base Desktop App 
+ 
+, update 
+. 
+,. 
+ 
+, : Priya 
+ merged., 
+ re - corpus, 
+. 8 seconds 
+. 200 milliseconds. 
+. 
+ 
+, Q & A : bug 
+ wrong. 
+ race condition. 
+ fix Friday., citation links 
+ unreliable. 
+ 
+, : 
+ local JSON files. 
+ harness native dependency. 
+. 
+ 
+ : Priya tests indexer. Marcus fix 
+ citation bug Friday. update AGENTS. md 
+ indexing behavior. sync next Monday.

@@ -1,0 +1,12 @@
+{
+  "name": "context-compression-harness",
+  "private": true,
+  "type": "module",
+  "description": "Measures token/byte cost of different context-storage encodings",
+  "scripts": {
+    "measure": "node measure.mjs"
+  },
+  "dependencies": {
+    "gpt-tokenizer": "^2.9.0"
+  }
+}
